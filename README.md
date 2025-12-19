@@ -19,21 +19,21 @@ The core application of these projects is using different methods and probabilit
 
 ## Project Overview
 
-### [Homework 1: Feature Analysis & Priors]
+### Homework 1: Feature Analysis & Priors
 * **Focus:** Preprocessing and Prior Estimation.
 * **Details:**
   * Processed raw image blocks using Discrete Cosine Transform (DCT) and Zig-Zag scanning to create 64-dimensional feature vectors.
   * Estimated class priors $P(Cheetah)$ and $P(Grass)$ from training samples.
   * Visualized feature marginal densities to assess separability.
 
-### [Homework 2: Bayesian Classification (Gaussian)]
+### Homework 2: Bayesian Classification (Gaussian)
 * **Focus:** Maximum Likelihood Estimation (MLE) & Dimensionality.
 * **Details:**
   * Modeled class-conditional densities $P(x|Class)$ using a Single Multivariate Gaussian.
   * Compared classification performance between the best 8 features vs. the full 64 features.
   * **Result:** The 64D model significantly outperformed the 8D model, demonstrating that even weak features contribute to classification in a Bayesian framework.
 
-### [Homework 3: Bayesian Parameter Estimation]
+### Homework 3: Bayesian Parameter Estimation
 * **Focus:** ML vs. MAP vs. Predictive Distribution.
 * **Details:**
   * Implemented three different classifiers to handle parameter uncertainty:
@@ -42,7 +42,7 @@ The core application of these projects is using different methods and probabilit
     3. **Bayesian Predictive Classifier** (integrating out parameters).
   * **Result:** Analyzed convergence behavior across datasets of varying sizes. Demonstrated that as prior uncertainty increases (larger $\alpha$), MAP and Predictive estimates converge toward the ML estimate.
 
-### [Homework 5: EM for Gaussian Mixture Models]
+### Homework 5: EM for Gaussian Mixture Models
 * **Focus:** Latent Variables & Model Complexity.
 * **Details:**
   * Derived and implemented the Expectation-Maximization (EM) algorithm for GMMs with diagonal covariance.
