@@ -53,6 +53,8 @@ The core application of these projects is using different methods and probabilit
 ---
 
 ## Sample Results
+![image](https://github.com/ChengYan0627/Statistical-Learning/blob/main/Hw2_results.png)
+![image](https://github.com/ChengYan0627/Statistical-Learning/blob/main/Hw5_results.png)
 
 ---
 
