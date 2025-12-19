@@ -3,9 +3,9 @@ UC San Diego ECE 271A coursework: MATLAB implementations of statistical learning
 
 # Probabilistic Machine Learning & Pattern Recognition (ECE 271A)
 
-This repository contains a collection of projects developed for **ECE 271A: Statistical Learning I**. The projects focus on implementing fundamental probabilistic models from scratch in **MATLAB**, covering Bayesian decision theory, parameter estimation, and latent-variable learning.
+This repository contains a collection of projects developed for ECE 271A: Statistical Learning I. The projects focus on implementing fundamental probabilistic models from scratch in MATLAB, covering Bayesian decision theory, parameter estimation, and latent-variable learning.
 
-The core application of these projects is a **Binary Classification** problem: Segmenting a "Cheetah" (foreground) from "Grass" (background) in images using 64-dimensional DCT features.
+The core application of these projects is using different methods and probability models to segment a Cheetah(foreground) from Grass(background) in images using 64-dimensional DCT features.
 
 ---
 
@@ -29,8 +29,8 @@ The core application of these projects is a **Binary Classification** problem: S
 ### [Homework 2: Bayesian Classification (Gaussian)]
 * **Focus:** Maximum Likelihood Estimation (MLE) & Dimensionality.
 * **Details:**
-  * Modeled class-conditional densities $P(x|Class)$ using a **Single Multivariate Gaussian**.
-  * Compared classification performance between the **best 8 features** vs. the **full 64 features**.
+  * Modeled class-conditional densities $P(x|Class)$ using a Single Multivariate Gaussian.
+  * Compared classification performance between the best 8 features vs. the full 64 features.
   * **Result:** The 64D model significantly outperformed the 8D model, demonstrating that even weak features contribute to classification in a Bayesian framework.
 
 ### [Homework 3: Bayesian Parameter Estimation]
@@ -45,10 +45,10 @@ The core application of these projects is a **Binary Classification** problem: S
 ### [Homework 5: EM for Gaussian Mixture Models]
 * **Focus:** Latent Variables & Model Complexity.
 * **Details:**
-  * Derived and implemented the **Expectation-Maximization (EM) algorithm** for GMMs with diagonal covariance.
+  * Derived and implemented the Expectation-Maximization (EM) algorithm for GMMs with diagonal covariance.
   * **Initialization:** Investigated the sensitivity of EM to random initializations and its impact on the decision boundary.
   * **Model Selection:** Evaluated the Probability of Error (PoE) for mixture components $C \in \{1, 2, ..., 32\}$.
-  * **Result:** Found that **$C=8$** provides the best balance between model flexibility and overfitting.
+  * **Result:** Found that $C=8$ provides the best balance between model flexibility and overfitting.
 
 ---
 
